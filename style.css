@@ -1,0 +1,130 @@
+
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+
+/* shared style */
+.secondary-bg{
+    background-color: #fff8f3;
+}
+.text-primary{
+    color:red;
+}
+
+.header{
+    background-image: url("../images/developer.png"),url("../images/header_bg.png") ;
+    /* background-image: url("../images/header.png"); */
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* nav style  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 200px;
+}
+
+.btm-primary{
+    background-color: darkorange;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 30px;
+    border-radius: 5px;
+    border:none;
+}
+
+nav ul li{
+    list-style: none;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav li a{
+    text-decoration: none;
+    margin: 44px;
+}
+nav ul{
+    display: flex;
+   align-items: center;
+    
+}
+    /* div banner  style*/
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 26px;
+    width:550px;
+    opacity: 0.33; 
+    background-color: aquamarine;
+}
+.banner-profile{
+    width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+/* main style */
+main{
+    max-width: 1270px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 13px;
+    padding: 30px 50px; 
+    text-align: center;
+    margin-top: 130px;
+}
+.section-title{
+    font-size: 45px;
+    font-weight: 600;
+}
+.section-description{
+    font-size: 26px;
+    width:1160px;
+    opacity: 0.33; 
+}
+
+/* about items style */
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .about-item{
+
+} */
+.item-description{
+    font-weight: 600;
+    
+}
+
+/* .item-title{
+    
+} */
+
+
+
+
+
+
+
