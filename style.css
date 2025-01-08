@@ -143,7 +143,66 @@ main{
     border-radius: 5px;
 }
 
+/* resumi section style */
+.resume-container{
+    display: flex;
+    gap: 25px;
+    justify-content: center ;
+}
 
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.experience-title{
+    font-weight:bold;
+}
+.experience-sub-title{
+    margin-bottom: 20PX;
+}
+.experience-title{
+    margin-top: 40PX;
+}
 
+.experience{
+    width: 490PX;
+    height: 175px;
+}
 
+.cv-btn{
+    text-align: center;
+
+}
+.downlod-cv{
+    width: 200px;
+    height: 64px;
+    background-color: rgba(253, 110, 10, 1);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+/* footer styles */
+
+footer{
+    padding: 130px 200px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px;
+    border: none;
+    
+}
 
