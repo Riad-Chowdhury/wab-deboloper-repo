@@ -10,12 +10,18 @@
 
 /* shared style */
 .secondary-bg{
-    background-color: #fff8f3;
+    background-color: rgba(255, 84, 84, 0.049);
 }
 .text-primary{
     color:red;
 }
 
+.text-center{
+    text-align: center;
+}
+.skills{
+    margin-top: 100px;
+}
 .header{
     background-image: url("../images/developer.png"),url("../images/header_bg.png") ;
     /* background-image: url("../images/header.png"); */
@@ -70,7 +76,6 @@ nav ul{
     font-size: 26px;
     width:550px;
     opacity: 0.33; 
-    background-color: aquamarine;
 }
 .banner-profile{
     width: 580px;
@@ -110,19 +115,33 @@ main{
     justify-content: space-around;
 }
 
-/* .about-item{
-
-} */
 .item-description{
     font-weight: 600;
     
 }
 
-/* .item-title{
+
+.skill-description{
+    opacity: 0.33;
+}
+
+.skills-container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    margin-top: 50px;
     
-} */
-
-
+}
+.skill-description{
+    width: 200px;
+    height: 150px;
+}
+.skill{
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0px 6px 49px opx rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    border-radius: 5px;
+}
 
 
 
