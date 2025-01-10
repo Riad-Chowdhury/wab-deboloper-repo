@@ -205,4 +205,16 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     border: none;
     
 }
+.img-icon a{
+    margin: 10px;
+}
+
+.footer-section{
+    margin-top: 10px;
+}
+
+
+
+
+
 
